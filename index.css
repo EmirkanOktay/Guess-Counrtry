@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-color: rgb(226, 224, 224);
+    background-size: cover;
+}
+
+.container .container-wrapper{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 91vh;
+    background-color: rgb(226, 224, 224);
+}
+
+.container-wrapper .countries-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.countries-button input{
+    margin: 15px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    border-style:ridge;
+    cursor: pointer;
+}
+
+.countries-button input:hover{
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.container-wrapper .play{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+}
+
+.play input{
+    position: relative;
+    top: 65px;
+    margin: 15px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    border-style:ridge;
+    cursor: pointer;
+}
+
+.play input:hover{
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.country #guess,#guessButton{
+    display: none;
+}
+
+.country #flag{
+    width: 10%;
+    height: 14vh;
+    display: none;
+}
+
+ .country p{
+   margin: 10px;
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.country #guess{
+    margin-bottom: 20px;
+    width: 14%;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    border-style:ridge;
+}
+
+.country #guess:hover{
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.country #guessButton {
+    margin-bottom: 20px;
+    width: 14%;
+    height: 30px;
+    background-color: rgb(195, 195, 195);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    border-style:ridge;
+    cursor: pointer;
+}
+
+.country #guessButton:hover{
+    border: 1px solid black;
+    transition: 2s;
+    
+}
+
+.country .score {
+    display: inline;
+    position: relative;
+}
