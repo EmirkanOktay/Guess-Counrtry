@@ -34,10 +34,11 @@ If your input is true you'll get a alert message like this. After that your scor
 
 ![Ekran görüntüsü 2024-07-25 183149](https://github.com/user-attachments/assets/997c7bdb-638a-457c-99ef-ddb34c86a9c0)
 
-Also you can select region. If you don't know African countries don't worry. You can select Europa so your question will be about Europan countries
-
 If your answer is false you'll see a alert like this and you get -20 points from your total point. If you have not any points your point will stay as 0.
 
 ![Ekran görüntüsü 2024-07-25 183200](https://github.com/user-attachments/assets/69475735-69fb-4551-aa71-1350631f1067)
 
 If you don't write anything to input area and clicked the guess button you'll get a alert like this
+
+Also you can select region. If you don't know African countries don't worry. You can select Europa so your question will be about Europan countries
+
