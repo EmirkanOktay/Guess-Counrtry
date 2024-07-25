@@ -99,6 +99,11 @@
    font-family: 'Times New Roman', Times, serif;
 
 }
+.country span {
+    margin: 10px;
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+}
 .country #guess{
     margin-bottom: 20px;
     width: 14%;
